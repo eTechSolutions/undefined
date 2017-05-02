@@ -15,6 +15,13 @@ if (undefined) // false
 if (null) // false
 
 // this
+let obj = {
+  name: 'hello',
+  print: () => console.log(this.name)
+}
+
+let exec = obj.print
+exec() // outputs undefined
 
 // scope
 if (true) {
