@@ -1,0 +1,3 @@
+Object.keys()
+
+Object.getOwnPropertyNames()
