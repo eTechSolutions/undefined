@@ -5,11 +5,21 @@ let obj = {
   }
 }
 
+// does this work?
 obj.age = 32
 
-// console.log(obj)
+// what happens when we log an object
+console.log(obj)
 
-// obj['dothing']()
+// what does this do?
+console.log(obj['age'])
 
 obj['name'] = 'test'
 console.log(obj)
+
+// Now Try!
+// create an object using object literal
+// assign a property using property syntax
+// addign a property using key syntax
+// add function to object
+// execute function
