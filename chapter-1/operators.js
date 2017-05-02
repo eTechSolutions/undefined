@@ -24,3 +24,7 @@ function nullPropagation(opts) {
 
   console.log(display)
 }
+
+//Now try
+//Array(3)==",,"
+//0.1+0.2 == 0.3
