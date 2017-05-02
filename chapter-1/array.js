@@ -13,10 +13,13 @@ console.log(arr[1])
 
 arr[5] = 'I haz no idea what im doing?'
 
-arr.pop()
-arr.shift()
-arr.unshift('new first item')
+arr.pop() // Takes Last
+arr.shift() // Takes First
+arr.unshift('new first item') // insert at start
 
 arr['hello'] = 'this makes no sense?'
 
-// console.log(arr)
+// Now try
+// push object into array
+// remove using pop
+// log removed item
