@@ -28,3 +28,6 @@ if (true) {
   var a = 1
 }
 console.log(a) // Works!
+
+// numbers are different
+let o = 1 / 2 // 0.5
