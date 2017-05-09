@@ -10,3 +10,6 @@ Cat.prototype = Object.create(Animal.prototype)
 
 let cat = new Cat()
 cat.noise()
+
+// Try ME!
+// - setup a shape/circle/triangle with area method and size properties

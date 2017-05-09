@@ -1,8 +1,10 @@
-let test = 1
+let test = 1 // static? ish data, scoped to file
 
-let fact = function(inp) {
+// Just a function that returns objects
+let fact = function(inp) { // use parameters or local variables for private data
   let name = inp
 
+  // return the new object
   return {
     hello: () => {
       test = test + 1
@@ -11,8 +13,13 @@ let fact = function(inp) {
   }
 }
 
+// call function to create objects
 let one = fact('first')
 let two = fact('second')
 
 one.hello()
 two.hello()
+
+// Try Me!
+// Make an instruction factory, hold name/address as private data
+// expose address via an instruction
