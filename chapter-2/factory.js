@@ -19,3 +19,7 @@ let two = fact('second')
 
 one.hello()
 two.hello()
+
+// Try Me!
+// Make an instruction factory, hold name/address as private data
+// expose address via an instruction
