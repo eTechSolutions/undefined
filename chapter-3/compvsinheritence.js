@@ -17,7 +17,7 @@ class PeelableEdableFruit extends PeelableFruit {
 class Apple extends PeelableEdableFruit {
 }
 
-class Bannana extends PeelableEdableFruit {
+class Bannana extends PeelableEdibleFruit {
 }
 
 class Pineapple extends Fruit {
