@@ -22,3 +22,5 @@ Promise.resolve(promise)
   .then((data) => {
     console.log(`Done, got ${data}`)
   })
+
+// read/manipulateData/write to file using node
